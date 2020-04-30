@@ -8,10 +8,10 @@ const router = new Router();
 router.get('/getUser', async ctx => {
   ctx.body = {
     username: 'Katte',
-    age: 100
+    age: 101
   }
 });
 
 server.use(router.routes());
 
-server.listen(9000, () => console.log('http://0.0.0.0:9000/getUser'))
+server.listen(process.env.PORT || 9000, () => console.log('http://0.0.0.0:9000/getUser'))
