@@ -7,8 +7,8 @@ const router = new Router();
 
 router.get('/getUser', async ctx => {
   ctx.body = {
-    username: 'Katte',
-    age: 101
+    username: 'Katte2',
+    age: 102
   }
 });
 
