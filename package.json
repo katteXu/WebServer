@@ -1,0 +1,17 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "web服务器",
+  "main": "index.js",
+  "repository": "git@github.com:katteXu/WebServer.git",
+  "author": "xujiaxin <xujiaxin@kcsj.onaliyun.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8"
+  }
+}
